@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ToDoApp/static/css/main.ec09e314.chunk.css",
+    "main.js": "/ToDoApp/static/js/main.39d73eb0.chunk.js",
+    "main.js.map": "/ToDoApp/static/js/main.39d73eb0.chunk.js.map",
+    "runtime-main.js": "/ToDoApp/static/js/runtime-main.7aabe7a2.js",
+    "runtime-main.js.map": "/ToDoApp/static/js/runtime-main.7aabe7a2.js.map",
+    "static/js/2.48f99102.chunk.js": "/ToDoApp/static/js/2.48f99102.chunk.js",
+    "static/js/2.48f99102.chunk.js.map": "/ToDoApp/static/js/2.48f99102.chunk.js.map",
+    "index.html": "/ToDoApp/index.html",
+    "precache-manifest.8de1d3fb394a53a3ac4db02bb5ce01ad.js": "/ToDoApp/precache-manifest.8de1d3fb394a53a3ac4db02bb5ce01ad.js",
+    "service-worker.js": "/ToDoApp/service-worker.js",
+    "static/css/main.ec09e314.chunk.css.map": "/ToDoApp/static/css/main.ec09e314.chunk.css.map",
+    "static/js/2.48f99102.chunk.js.LICENSE.txt": "/ToDoApp/static/js/2.48f99102.chunk.js.LICENSE.txt",
+    "static/media/HomeIcon.png": "/ToDoApp/static/media/HomeIcon.089b5cdc.png",
+    "static/media/TransDrag.png": "/ToDoApp/static/media/TransDrag.889652d7.png",
+    "static/media/concrete-wall-background.jpg": "/ToDoApp/static/media/concrete-wall-background.6d2520b9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7aabe7a2.js",
+    "static/js/2.48f99102.chunk.js",
+    "static/css/main.ec09e314.chunk.css",
+    "static/js/main.39d73eb0.chunk.js"
+  ]
+}
