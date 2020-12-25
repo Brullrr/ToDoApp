@@ -20,6 +20,7 @@ const SideBar = (props) => {
             props.changeDisplayedProject(element);
             props.turnOffIsItNew();
             props.turnOffSideBar();
+            props.turnOffAreYouSure();
         }}>{element.projectTitle}</button>
         </div>
         )
@@ -47,10 +48,19 @@ const SideBar = (props) => {
         </div>
     }
 
+    let sidebarStyled = props.sideBarIsOpen ? classes.SideBar : classes.SideBarSlideOut
+
+
+    if(props.sideBarInitial) {
+        sidebarStyled = classes.SideBarInitial
+    }
+
+
+
     return (
         <Fragment>
             
-            <div className={props.sideBarIsOpen ? classes.SideBar : classes.SideBarSlideOut}>
+            <div className={sidebarStyled}>
                 <span></span>
 
                 <div className={classes.Projects}>
@@ -59,9 +69,10 @@ const SideBar = (props) => {
                 </div>
                 
                 <button className={classes.AddNewProjectButton} onClick={ () => {
-                        // props.isItNewToTrue();
+                        props.turnOffAreYouSure();
                         props.toggleHomeButton();
                         props.openAddProjectModal();
+                        
                         
                          }}><strong>ADD NEW PROJECT</strong></button>
             </div>
@@ -78,7 +89,7 @@ const mapDispatchToProps = dispatch => {
         turnOffSideBar: () => dispatch({type: actionTypes.TURN_OFF_BACKDROP}),
         turnOffIsItNew: () => dispatch({type:actionTypes.CHANGE_IS_IT_NEW}),
         turnOnAreYouSure: () => dispatch({type: actionTypes.TURN_ON_ARE_YOU_SURE}),
-        turnOffAreYouSure: () => dispatch({type: actionTypes.TURN_OFF_ARE_YOU_SURE}),
+        turnOffAreYouSure: () => dispatch({type: actionTypes.TURN_OFF_ARE_YOU_SURE}), 
         addedProjectToAwaitingDeletion: (element) => dispatch({type: actionTypes.ADDED_TO_AWAITING_DELETION, projectToBeDeleted: element }),
         deleteTheProject: (element) => dispatch({type: actionTypes.DELETE_THE_PROJECT, projectToBeDeleted: element})
         
@@ -89,7 +100,8 @@ const mapStateToProps = state => {
         sideBarIsOpen: state.sdbrspn.sideBarIsOpen,
         projectHolder: state.prjcthldr.projects,
         areYouSureIsOpen: state.rysr.areYouSure,
-        projectInLimbo: state.wtngdltn.awaitingDeletionProject
+        projectInLimbo: state.wtngdltn.awaitingDeletionProject,
+        sideBarInitial: state.sdbrspn.sideBarInitial
     }
 }
 

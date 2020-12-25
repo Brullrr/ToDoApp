@@ -33,8 +33,11 @@
 
 @media( max-width: 500px ){ 
     .AddTask {
-        position: fixed;
-        top: 70px;
+        height: 45px;
+        width: 45px;
+        top: 15vh;
+        padding: 0px;
+        line-height: 45px;
 
     }
 

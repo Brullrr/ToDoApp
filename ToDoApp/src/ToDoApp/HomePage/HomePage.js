@@ -45,7 +45,7 @@ const HomePage = (props) => {
             }>
 
                 <Header />
-                <Backdrop show={show} clicked={props.turnOffBackdrop} />
+                <Backdrop show={show} clicked={ () => { props.turnOffBackdrop(); props.turnOffAreYouSure(); }} />
                 {sideBar}
                 {newProjectModal}
                 
@@ -65,7 +65,8 @@ const mapDispatchToProps = dispatch => {
     return {
         turnOffBackdrop: () => dispatch({type: actionTypes.TURN_OFF_BACKDROP}),
         openAddProjectModal: () => dispatch({type: actionTypes.TOGGLE_ADD_PROJECT_MODAL}),
-        openAddTaskModal: () => dispatch({type: actionTypes.TOGGLE_ADD_TASK_MODAL})
+        openAddTaskModal: () => dispatch({type: actionTypes.TOGGLE_ADD_TASK_MODAL}),
+        turnOffAreYouSure: () => dispatch({type: actionTypes.TURN_OFF_ARE_YOU_SURE})
     }
 }
 

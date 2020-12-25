@@ -52,7 +52,7 @@ const Header = (props) => {
     return (
 
         <Fragment>
-            <button className={ props.sideBarIsOpen ? classes.MenuButton : classes.HomeButton } onClick={ props.toggleHomeButton } style={
+            <button className={ props.sideBarIsOpen ? classes.MenuButton : classes.HomeButton } onClick={ () => { props.toggleHomeButton(); props.turnOffAreYouSure(); props.turnOffSideBarInitial(); }} style={
                 {
                     backgroundImage: props.sideBarIsOpen ? `url(${menuIcon})` : `url(${homeIcon})`,
                     backgroundSize: '100% 100%'
@@ -78,7 +78,9 @@ const mapDispatchToProps = dispatch => {
         toggleHomeButton: () => dispatch({type: actionTypes.TOGGLE_HOME_BUTTON}),
         updateCurrentlyDisplayed: (mostRecentlyCreatedProject) => dispatch({type: actionTypes.UPDATE_CURRENTLY_DISPLAYED, mostRecentlyCreatedProject: mostRecentlyCreatedProject }),
         turnOffHeaderRefresh: () => dispatch({type: actionTypes.TURN_OFF_HEADER_REFRESH}),
-        refreshPage: () => dispatch({type: actionTypes.ADD_NEW_TASK_REFRESH_DISPLAY})
+        refreshPage: () => dispatch({type: actionTypes.ADD_NEW_TASK_REFRESH_DISPLAY}),
+        turnOffAreYouSure: () => dispatch({type: actionTypes.TURN_OFF_ARE_YOU_SURE}),
+        turnOffSideBarInitial: () => dispatch({type: actionTypes.TURN_OFF_SIDEBAR_INITIAL})
     }
 }
 

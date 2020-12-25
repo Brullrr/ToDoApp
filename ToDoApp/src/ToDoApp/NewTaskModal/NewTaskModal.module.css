@@ -1,5 +1,5 @@
 .NewTaskModal {
-    position: fixed;
+    position: relative;
     z-index: 600;
     background-color: rgba(158, 170, 177, 0.9);
     width: 70%;
