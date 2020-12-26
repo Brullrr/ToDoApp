@@ -38,8 +38,8 @@
         width: 45px;
         top: 16vh;
         padding: 0px;
-        line-height: 45px;
-        left: 2%;
+        line-height: 0px;
+        left: 10%;
         
 
     }
@@ -52,7 +52,7 @@
         width: 45px;
         top: 10vh;
         padding: 0px;
-        line-height: 45px;
+        line-height: 0px;
         left: 2%;
     }
 
