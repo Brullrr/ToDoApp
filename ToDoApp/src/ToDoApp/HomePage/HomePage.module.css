@@ -40,7 +40,7 @@
         padding: 0px;
         line-height: 0px;
         left: 10%;
-        
+        font-size: 45px;
 
     }
 
@@ -54,6 +54,7 @@
         padding: 0px;
         line-height: 0px;
         left: 2%;
+        font-size: 45px;
     }
 
 }
