@@ -9,7 +9,6 @@
 
 .AddTask {
     position: absolute;
-    right: 0%;
     top: 20vh;
     margin-top: 4px;
     height: 45px;
@@ -23,7 +22,7 @@
     border-radius: 50%;
     font-size: 50px;
     padding: 0px;
-    right: 2%;
+    left: 10%;
 }
 
 .AddTask:hover {
@@ -37,9 +36,11 @@
     .AddTask {
         height: 45px;
         width: 45px;
-        top: 18vh;
+        top: 16vh;
         padding: 0px;
-        line-height: 40px;
+        line-height: 45px;
+        left: 2%;
+        
 
     }
 
@@ -49,10 +50,10 @@
     .AddTask {
         height: 45px;
         width: 45px;
-        top: 13vh;
+        top: 10vh;
         padding: 0px;
-        line-height: 40px;
-
+        line-height: 45px;
+        left: 2%;
     }
 
 }

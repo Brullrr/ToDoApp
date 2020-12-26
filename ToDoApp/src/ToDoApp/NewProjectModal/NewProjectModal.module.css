@@ -27,6 +27,7 @@
 
 }
 .EnterProjectDescription {
+    display: none;
     padding: 5px;
     padding-left: 10px;
     font-size: 14px;
