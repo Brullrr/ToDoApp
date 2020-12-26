@@ -3,10 +3,7 @@ import React, {Fragment, useEffect} from 'react';
 import { connect } from 'react-redux';
 import Task from '../Task/Task';
 import * as actionTypes from '../../store/actionTypes/actionTypes';
-// import font from'../../Fonts/Berton-Roman-trial.eot'
-// import '../../Fonts/Berton-Roman-trial.woff2'
-// import '../../Fonts/BertonRoman-Regular.svg'
-// import '../../Fonts/BertonRoman-Regular.woff'
+
 
 
 const ProjectDisplay = (props) => {
