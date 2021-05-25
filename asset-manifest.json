@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/ToDoApp/static/css/main.0a7b3952.chunk.css",
-    "main.js": "/ToDoApp/static/js/main.153d0dea.chunk.js",
-    "main.js.map": "/ToDoApp/static/js/main.153d0dea.chunk.js.map",
-    "runtime-main.js": "/ToDoApp/static/js/runtime-main.7aabe7a2.js",
-    "runtime-main.js.map": "/ToDoApp/static/js/runtime-main.7aabe7a2.js.map",
-    "static/js/2.48f99102.chunk.js": "/ToDoApp/static/js/2.48f99102.chunk.js",
-    "static/js/2.48f99102.chunk.js.map": "/ToDoApp/static/js/2.48f99102.chunk.js.map",
-    "index.html": "/ToDoApp/index.html",
-    "precache-manifest.2e32c32f19714a2194d85042a9926965.js": "/ToDoApp/precache-manifest.2e32c32f19714a2194d85042a9926965.js",
-    "service-worker.js": "/ToDoApp/service-worker.js",
-    "static/css/main.0a7b3952.chunk.css.map": "/ToDoApp/static/css/main.0a7b3952.chunk.css.map",
-    "static/js/2.48f99102.chunk.js.LICENSE.txt": "/ToDoApp/static/js/2.48f99102.chunk.js.LICENSE.txt",
-    "static/media/HomeIcon.png": "/ToDoApp/static/media/HomeIcon.089b5cdc.png",
-    "static/media/TransDrag.png": "/ToDoApp/static/media/TransDrag.889652d7.png",
-    "static/media/concrete-wall-background.jpg": "/ToDoApp/static/media/concrete-wall-background.6d2520b9.jpg"
+    "main.css": "/Boba-Shopping/static/css/main.8e3550b1.chunk.css",
+    "main.js": "/Boba-Shopping/static/js/main.3247320e.chunk.js",
+    "main.js.map": "/Boba-Shopping/static/js/main.3247320e.chunk.js.map",
+    "runtime-main.js": "/Boba-Shopping/static/js/runtime-main.58c8e85e.js",
+    "runtime-main.js.map": "/Boba-Shopping/static/js/runtime-main.58c8e85e.js.map",
+    "static/js/2.4d0cd559.chunk.js": "/Boba-Shopping/static/js/2.4d0cd559.chunk.js",
+    "static/js/2.4d0cd559.chunk.js.map": "/Boba-Shopping/static/js/2.4d0cd559.chunk.js.map",
+    "index.html": "/Boba-Shopping/index.html",
+    "precache-manifest.8f741b61157be46f28ce2eacdab7244f.js": "/Boba-Shopping/precache-manifest.8f741b61157be46f28ce2eacdab7244f.js",
+    "service-worker.js": "/Boba-Shopping/service-worker.js",
+    "static/css/main.8e3550b1.chunk.css.map": "/Boba-Shopping/static/css/main.8e3550b1.chunk.css.map",
+    "static/js/2.4d0cd559.chunk.js.LICENSE.txt": "/Boba-Shopping/static/js/2.4d0cd559.chunk.js.LICENSE.txt",
+    "static/media/Cart.PNG": "/Boba-Shopping/static/media/Cart.af5206e7.PNG",
+    "static/media/HomeIcon.png": "/Boba-Shopping/static/media/HomeIcon.ebdea7e0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7aabe7a2.js",
-    "static/js/2.48f99102.chunk.js",
-    "static/css/main.0a7b3952.chunk.css",
-    "static/js/main.153d0dea.chunk.js"
+    "static/js/runtime-main.58c8e85e.js",
+    "static/js/2.4d0cd559.chunk.js",
+    "static/css/main.8e3550b1.chunk.css",
+    "static/js/main.3247320e.chunk.js"
   ]
 }
